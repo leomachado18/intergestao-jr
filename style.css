@@ -1,0 +1,675 @@
+/*Estilo Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+
+}
+
+.logo img {
+    width: 190px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.favicon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/*Estilo Cabeçalho*/
+header {
+    padding: 0%;
+    background: linear-gradient(to right, #004aad 50%, #004aad 50%);
+    height: 130px;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header a {
+    color: rgb(255, 246, 246);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #ff4d1d;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    word-spacing: 90px;
+    padding-left: 150px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: #ff4d1d;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ffffff;
+
+
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #ff4d1d;
+    color: #ff4d1d;
+    background-color: #ffffff;
+}
+
+/*Fim Cabeçalho*/
+/*Parte 1 pós-cabeçalho*/
+.imagem-foto1 {
+    width: 100%;
+    height: 0%;
+    padding: 0;
+    margin: 0px;
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #ff4d1d;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.botao-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+}
+
+.h1 {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+/*Fim Parte 1 pós-cabeçalho*/
+
+/*Parte 2 pós-cabeçalho*/
+.imagem_container {
+    position: relative;
+    text-align: center;
+}
+
+.imagem_container h1,
+.imagem_container h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(50%, 50%);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.imagem_container h1 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 170%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagem_container h2 {
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagem_container_2 {
+    margin-right: 150px;
+
+}
+
+.imagem_container_2 img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: 31%;
+    border-color: #030f1f;
+    border-style: solid;
+}
+
+.imagem_container_2 p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+    margin-right: 13%;
+    margin-left: 25%;
+    padding: 0%;
+    color: #030f1f;
+    margin-bottom: 5%;
+}
+
+/*Fim Parte 2 pós-cabeçalho*/
+/*Este h2 funciona tanto para a Parte 1, Quanto para a parte 2*/
+h2 {
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    padding: 10%;
+    color: #030f1f;
+    margin-bottom: 5%;
+}
+
+/*Fim Este h2 funciona tanto para a Parte 1, Quanto para a parte 2*/
+
+/*Parte 3 pós-cabeçalho*/
+.seção-colorida {
+    background-color: #002340;
+    /* Cor do fundo azul escuro */
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Para ocupar a altura total da tela */
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.seção-colorida img {
+    width: 25%;
+    margin-left: 0%;
+    margin-top: 15%;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.content img {
+    max-width: 800px;
+    height: 10%;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+/*Design do Formulário*/
+
+
+
+
+/*Fim Parte 3 pós-cabeçalho*/
+/* Parte 4 pós-cabeçalho*/
+.mvv {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 180px;
+
+}
+
+.visao {
+    width: 250px;
+    height: 250px;
+    margin-right: 35px;
+    box-shadow: 5px 5px 15px #004aad;
+
+
+}
+
+.visao:hover {
+    background-color: #ff8c00;
+    /* Laranja ao passar o mouse */
+    border-color: #ff8c00;
+    /* Alterar a cor da borda também */
+}
+
+.missao {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 15px #004aad;
+}
+
+.valores {
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    box-shadow: 5px 5px 15px #004aad;
+}
+
+.h1_3 {
+    color: #030f1f;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #004aad;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.vantagens {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 100px;
+
+}
+
+.vantagens img {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 15px #004aad;
+    margin-bottom: 150px;
+}
+
+/*Fim Parte 4 pós-cabeçalho*/
+/*Parte 5 pós-cabeçalho*/
+
+.titulo-secao {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.quem-somos {
+    color: #004aad;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+
+/*CARROSSEL*/
+/* Estilos gerais */
+#nosso-time {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #002340;
+    /* Fundo azul escuro */
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#nosso-time h2 {
+    font-size: 3.5rem;
+    /* Aumenta o tamanho do título */
+    color: white;
+    margin-right: 50px;
+    /* Dá espaço entre o título e o carrossel */
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    /* Largura do carrossel */
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* Faz o carrossel ocupar todo o espaço da div */
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+    /* Animação mais suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    /* Mantém as imagens na mesma posição */
+}
+
+.carousel-item img {
+    width: 300px;
+    /* Tamanho maior das imagens */
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.carousel-item h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.carousel-item p {
+    color: white;
+    font-size: 1rem;
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.carousel-control.prev {
+    left: -50px;
+}
+
+.carousel-control.next {
+    right: -50px;
+}
+
+
+
+/*Fim Parte 5 pós-cabeçalho*/
+/* Parte 6 pós-cabeçalho*/
+.h1_4 {
+    color: #030f1f;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #004aad;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.localização img {
+    width: 600px;
+    margin-left: 620px;
+    margin-bottom: 200px;
+    border: 2px solid #004aad;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #ff4d1d;
+}
+
+/*Fim Parte 6 pós-cabeçalho*/
+/*Rodapé*/
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004aad;
+    color: white;
+    padding: 20px 0;
+    height: 180px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.info_contato {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.info_contato h3 {
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.redes_sociais {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #004aad;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon i {
+    margin: 0;
+}
+
+/* Rodapé preto */
+.rodape_preto {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.p_1 {
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.p_2 {
+    margin-left: 300px;
+    display: inline-block;
+}
+
+/*Fim rodapé preto*/
+/*Fim rodapé*/
+
+
+/* FORMULARIO */
+
+.form-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-image {
+    flex: 1;
+}
+
+.form-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-content {
+    flex: 1;
+    background-color: #1a4ba6;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group span {
+    color: red;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group select {
+    cursor: pointer;
+}
+
+.button {
+    background-color: #002c54;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ca570b;
+}
+
+@media (max-width: 760px) {
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-content {
+        padding: 10px;
+    }
+
+    .form-image {
+        height: 200px;
+    }
+}
+
+.titulo {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/*botao whatsapp */
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    /* Distância da parte inferior da tela */
+    right: 20px;
+    /* Distância do lado direito da tela */
+    background-color: #25d366;
+    /* Cor de fundo do botão */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    /* Para garantir que o botão fique por cima de outros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estiliza o ícone do WhatsApp */
+.whatsapp-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* Ícone arredondado */
+    transition: transform 0.3s ease;
+    /* Animação ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.whatsapp-float:hover .whatsapp-icon {
+    transform: scale(1.1);
+    /* Aumenta o tamanho do ícone ao passar o mouse */
+}
